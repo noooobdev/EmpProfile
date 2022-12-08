@@ -1,95 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap");
 
-*{
-margin: 0;
-padding: 0;
-color: aliceblue;
-
-}
-
-#root{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: grey;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-    background-color: #1A1B21;
-    border-radius: 10px;
-    overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
 }
 
-.Top-info{
-   text-align: center;
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: grey;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
 }
-.Top-info>h1{
-font-size: 24px;
-font-weight: 400 ;
-}
-.Top-info>h3{
-    font-size: 16px;
-    color: #F3BF99;
-    font-weight: 300 ;
-}
-.Top-info>p{
-    font-size: 12px;
-    font-weight: 300 ;
-}
-.image{
-    width: 100%;
-}
-
-.Button{
-    display: flex;
-    width: 75%;
-    align-items: center;
-    justify-content: center;
-    background-color:red;
-    margin: auto;
-    border-radius: 5px;
-    height: 30px;
-    margin-top: 8px ;
-    border:none;
-
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1b21;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.Mid-info{
-    word-spacing: 2px;
+.Top-info {
+  text-align: center;
+}
+.Top-info > h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.Top-info > h3 {
+  font-size: 16px;
+  color: #f3bf99;
+  font-weight: 300;
+}
+.Top-info > p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.image {
+  width: 100%;
 }
 
-.About{
-    margin: 10px;
-}
-.About>h4{
-    color: red;
-}
-.About>p{
-    font-size: 10px;
-    font-weight: 300;
-}
-.Interest>h4{
-    color: red;
-}
-.Interest{
-    margin: 10px;
-}
-.Interest>p{
-    font-size: 10px;
-    font-weight: 300;
+.Button {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  margin: auto;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 8px;
+  border: none;
 }
 
-.Socials{
-
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
+.Mid-info {
+  word-spacing: 2px;
 }
 
+.About {
+  margin: 10px;
+}
+.About > h4 {
+  color: red;
+}
+.About > p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.Interest > h4 {
+  color: red;
+}
+.Interest {
+  margin: 10px;
+}
+.Interest > p {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.Socials {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
